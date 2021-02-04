@@ -30,6 +30,7 @@ let hornBtn;
 let hornImage;
 let hornAudio;
 
+// Wait until finished loading to initialize page and element variables
 window.onload = function() {
     playForm     = document.getElementById('party-horn-form');
 
